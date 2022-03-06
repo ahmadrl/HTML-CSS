@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition</title>
+    <style>
+        #div1
+        {
+            background-color: blue;
+            height: 80px;
+            width: 80px;
+            transition: width 2s;
+        }
+        #div1:hover
+        {
+            width: 200px;
+        }
+        #div2
+        {
+            background-color: bisque;
+            height: 80px;
+            width: 80px;
+            transition: width 2s,height  4s;
+            
+
+        }
+        #div2:hover
+        {
+            width:200px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The transition property</h1>
+    <p>Hover over the div element below,to see the transition effect:</p>
+    <div id="div1"></div>
+    <hr/>
+    <div id="div2"></div>
+</body>
+</html>
