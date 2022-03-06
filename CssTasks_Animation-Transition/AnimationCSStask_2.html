@@ -5,23 +5,23 @@
     <title>Document</title>
     <style>
         div {
-            height: 50px;
-            width: 50px;
+            height: 30px;
+            width: 30px;
             background-color:green;
             border-radius: 50%;
-            animation-duration: 2s; 
+            margin-left:100px;
+            margin-top: 40px;
+            animation-duration: 1s; 
             animation-iteration-count: infinite;          
             animation-name: A;
-            transition: 2s;
 
 
         }
         @keyframes A {
-            0%{transform: scale(0);}
+            0%{transform: scale(1);width: 30px;height: 30px;}
                 
-            
-            25%{transform:scale(0.5);}
-            50%{transform:scale(1);}
+
+            50%{transform:scale(2);width: 64px;height: 64px;}
             
             }
         
