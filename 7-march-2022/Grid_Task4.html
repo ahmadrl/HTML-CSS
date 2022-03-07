@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.g1 { grid-area: header; }
+.g2 { grid-area: left; }
+.g3 { grid-area: right; }
+.g4 { grid-area: footer; }
+
+.grid {
+  display: grid;
+
+  grid-template-areas:
+    'header header header header header header'
+    'left left left left right right'
+    'footer footer footer footer footer footer';
+
+  gap: 10px;
+}
+
+.grid > div {
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid">
+  <div class="g1" style="background-color: black; " ></div>
+  <div class="g2" style="background-color:orange; height: 90px;" ></div>  
+  <div  class="g3" style="background-color:green; height: 90px;"></div>
+  <div class="g4" style="background-color:blue; " ></div>
+</div>
+
+</body>
+</html>
+
+
