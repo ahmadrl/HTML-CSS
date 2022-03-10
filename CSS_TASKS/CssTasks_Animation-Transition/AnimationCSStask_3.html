@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .div1 {
+
+            height: 250px;
+            width: 70px;
+            background-color: black;
+            padding: 30px;
+            margin: 0;
+            border-radius: 8px;
+            
+        }
+
+        .div2 {
+            background-color:gray;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            animation-name:red1;
+            animation-duration: 10s; 
+            animation-iteration-count: infinite;          
+            transition: 10s;
+            margin: 20px auto;
+
+
+            
+
+        }
+        .div3 {
+            background-color:gray;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            animation-name:yellow1;
+            animation-duration: 10s; 
+            animation-iteration-count: infinite;          
+            transition: 10s;
+            margin: 20px auto;
+        }
+        .div4 {
+            background-color:gray;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            animation-name:green1;
+            animation-duration: 10s; 
+            animation-iteration-count: infinite;          
+            transition: 10s;
+            margin: 20px auto;
+        }
+
+        @keyframes red1 {
+            0%,20% {
+                background: gray;
+            }
+
+            20%,
+            40% {
+                background: #c0392b;
+            }
+            40%,
+            80% {
+                background:gray;
+            }
+            
+        }
+
+        @keyframes yellow1 {
+
+            0%{
+                background: gray;
+            }
+
+            20%,
+            40% {
+                background:gray;
+                
+            }
+            40%,
+            80% {
+                background:yellow;
+                
+            }
+            
+            80%,100%{
+                background:gray;
+                
+            }
+           
+
+        }
+
+        @keyframes green1 {
+
+            0%{
+                background: gray;
+            }
+
+            20%,
+            40% {
+                background:gray;
+                
+            }
+            40%,
+            80% {
+                background:gray;
+                
+            }
+           80%,100% {
+                background: #1abc9c;
+            }
+
+          
+        }
+
+        .red {
+            animation: red 10s linear infinite;
+        }
+
+        .yellow1 {
+            animation: amber 10s linear infinite;
+        }
+
+        .green1 {
+            animation: green 10s linear infinite;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="div1">
+        <div class=" div2"></div>
+        <div class=" div3"></div>
+        <div class=" div4"></div>
+    </div>
+
+
+</body>
+
+</html>
